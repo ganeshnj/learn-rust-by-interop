@@ -103,7 +103,7 @@ mod tests {
 
     #[test]
     fn http_client_get() {
-        let host = "localhost:5290";
+        let host = "localhost:5104";
         let path = "/WeatherForecast";
 
         let client = HttpClient {};

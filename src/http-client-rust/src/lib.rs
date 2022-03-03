@@ -44,7 +44,7 @@ mod tests {
     #[test]
     fn test_http_client_get() {
         let request = CHttpRequest {
-            host: CString::new("localhost:5290").unwrap().into_raw(),
+            host: CString::new("localhost:5104").unwrap().into_raw(),
             path: CString::new("/WeatherForecast").unwrap().into_raw(),
         };
 
