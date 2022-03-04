@@ -1,7 +1,6 @@
 use std::collections::HashMap;
 use std::io::{Read, Write};
-use std::net::{TcpStream, ToSocketAddrs};
-use std::str::from_utf8;
+use std::net::{TcpStream};
 use std::time::Duration;
 
 pub  trait Callable {
