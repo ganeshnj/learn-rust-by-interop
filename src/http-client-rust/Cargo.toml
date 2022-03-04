@@ -7,6 +7,6 @@ edition = "2021"
 
 [lib]
 name = "http_client"
-crate-type = ["dylib"]
+crate-type = ["cdylib", "staticlib"]
 
 [dependencies]
